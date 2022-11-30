@@ -50,19 +50,8 @@ public class Query {
 		// set the mode for selecting next node for querying, default mode is 2
 		if(args.length==3 && (args[2].equals("1") || args[2].equals("closest"))){
 			mode = "FINDCLOS_";
-			System.out.println("You choose mode 1\n");
+			System.out.println("You choose finding closest node mode\n");
 		}
-		//else if(args[2].equals("2") || args[2].equals("response")){
-		//	mode = "FINDRES_";;
-		//}
-		/*
-		else {
-			System.out.println("\nCan't find he third input mode, please retry.\n\"1\" or \"closest\" for " +
-					"select the closest node\n\"2\" or\"response\" for select the least response time node\n");
-			System.exit(0);
-		}
-		*/
-
 
 
 

@@ -214,7 +214,7 @@ public class Node {
 				//else updateFingers(-2,ithFinger);
 			}
 		}
-		System.out.println(targetTime);
+		//System.out.println(targetTime);
 		if(targetTime!=Long.MAX_VALUE) return targetAddr;
 
 
